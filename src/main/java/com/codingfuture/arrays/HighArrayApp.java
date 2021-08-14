@@ -56,6 +56,7 @@ class HighArrayApp {
         arr.delete(99);
 
         System.out.println("Max " + arr.getMax());
+        System.out.println("Max " + arr.removeMax());
 
         arr.display();                // display items again
 

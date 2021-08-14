@@ -108,6 +108,14 @@ class HighArray {
         return max;
     }
 
+    public long removeMax(){
+        long max = getMax();
+        if (max != -1) {
+            delete(max);
+        }
+        return max;
+    }
+
     //-----------------------------------------------------------
 
 }  // end class HighArray
